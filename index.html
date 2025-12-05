@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Check in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div class="buttonheader">
+                <div class="divescrerdaheader">
+                    <img src="imgs/buy-outline.svg " class="imgbuttoncompras">
+                    Comprar
+                </div>
+            </div>
+    </header>
+    <div class="centralizar">
+        
+        <h1>Faça seu check-in agora pelo site</h1>
+        <div class="divparaosSelect">
+            <div style="display: flex; flex-direction: column;  margin-top: -5px;">
+                <label for="nome">Buscar reserva por</label>
+                <select id="nome">
+                    <option>Código de reserva + Origem</option>
+                </select>
+            </div>
+            <div style="display: flex; flex-direction: column;  margin-top: -5px;">
+                <label for="nome">Selecione um estado</label>
+                <select id="nome">
+                    <option>Acre</option>
+                    <option>Alagoas</option>
+                    <option>Amapá</option>
+                    <option>Amazonas</option>
+                    <option>Bahia</option>
+                    <option>Ceará</option>
+                    <option>Distrito Federal</option>
+                    <option>Espírito Santo</option>
+                    <option>Goiás</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option>
+                    <option>Minas Gerais</option>
+                    <option>Pará</option>
+                    <option>Paraíba</option>
+                    <option>Paraná</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio Grande do Norte</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+                </select>
+            </div>
+            <div style="display: flex; flex-direction: column;" class="abc">
+                <label for="teste">Código da reserva</label>
+                <input id="teste"type="text">
+            </div>
+            <div style="display: flex; flex-direction: column;" >
+                <label for="teste" class="abcdefg">a</label>
+                <button id="teste" onclick="funcaoalertteste()" class="buttonsinistro">Iniciar Check-in</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

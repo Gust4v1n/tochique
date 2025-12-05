@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background: #033466;
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    background: white;
+    width: 216px;
+    height: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(4, 30, 66);
+    border: 3px solid rgb(54, 54, 54);
+    border-size: 3px;
+    outline: unset;
+    box-sizing: border-box;
+    transition: border 0.5s ease-in-out;
+}
+
+select:focus{
+    border: 3px solid #014e84;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #014e84;
+}
+
+.divparaosSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    background: white;
+    padding: 16px;
+    width: 973px;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+
+input{
+    background: white;
+    width: 216px;
+    height: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 3px solid rgb(54, 54, 54);
+    border-size: 3px;
+    outline: unset;
+    box-sizing: border-box;
+    transition: border 0.5s ease-in-out;
+}
+
+input:focus{
+    border: 3px solid #014e84;
+}
+
+.abc label{
+    margin-top: -5px;
+}
+.buttonsinistro{
+    background: #014e84;
+    width: 216px;
+    height: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
+}
+.buttonsinistro:hover
+{
+    background: #026cb6;
+    transform: scale(1.05);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.abcdefg{
+    color: transparent;
+    margin-top: -5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #041e42;
+    margin-bottom: 40px;
+}
+
+.buttonheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    font-family: "Helvetica Neue", Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px 20px 0px 20px;
+    gap: 20px;
+}
+.buttonheader:hover{
+    background-color: #014e84;
+    border: none;
+    cursor: pointer;
+}
+
+.imgbuttoncompras{
+    height: 38px;
+    width: 38px;
+}
+
+.divescrerdaheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Neue", Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    position: relative;
+    text-decoration: none;
+    gap: 8px;
+}
